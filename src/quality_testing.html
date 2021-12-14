@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agricultural Blockchain App</title>
+   <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Agricultural Supply Chain Dapp</h1>
+  <h4>Public Id : <span class="white"><span id="SenderBalance"></span> </h4>
+  
+	<h2 class="form-title">Quality Testing</h2>
+		
+  <br>
+  <table>  
+  <input type="text" class="input-std" id="fid1" placeholder="Farmer Id">
+  <tr><td><b><label class = "white">Farmer Name</label></td><td>:</td></b><td><span class="white" span id="getval2"></span></td></tr>
+  <tr><td><b><label class = "white">Location</label></td><td>:</td></b><td><span class="white" span id="getval3"></span></td></tr>
+  <tr><td><b><label class = "white">Crop</label></td><td>:</td></b><td><span class="white" span id="getval4"></span></td></tr>
+  <tr><td><b><label class = "white">Phone</label></td><td>:</td></b><td><span class="white" span id="getval5"></span></td></tr>
+  <tr><td><b><label class = "white">Quantity</label></td><td>:</td></b><td><span class="white" span id="getval6"></span></td></tr>
+  <tr><td><b><label class = "white">Expected price</label><td>:</td></td></b><td><span class="white" span id="getval7"></span></td></tr>
+  
+  </table>  
+  <button type="button" class="btn-submit" id="getvalue" onclick = "get();">Get Value</button>
+
+     
+  <br><br>
+  
+  <table align="center"> 
+  <tr>
+  <td><button type="button" id="printBlock" class="btn btn-selector" onclick="printBlock()">Print Block</button></td>
+  <td><button type="button" id="printTransaction" class="btn btn-selector" onclick="printTransaction()">Print Transaction</button></td></tr>
+  </table> 
+ 
+  <br>
+  <h4> Block Number : <span class="blockclass" span id="blocknum"> </span></h4>
+  <br>
+<button type="button" class="btn-submit1" id="Approve-btn" align ="center" font="20px">Approve Details</button>
+  
+
+
+  <span id="status"></span>
+
+ 
+  
+   <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+ 
+</body>
+</html>
